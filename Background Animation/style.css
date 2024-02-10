@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec{
+    position: relative;
+    background: #111;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.star{
+    position: absolute;
+    background: #111;
+    /* width: 5px;
+    height: 5px; */
+    border-radius: 50%;
+}
+.star.animate{
+    background: aqua;
+    box-shadow: 0 0 5px aqua, 0 0 20px aqua, 0 0 50px aqua;
+}
